@@ -1,1 +1,112 @@
 @charset "UTF-8";
+/* Q5-1の解答はここから */
+.flex-row{
+    display: flex;
+}
+.flex-row-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+.flex-column-reverse{
+    display: flex;
+    flex-direction: column-reverse;
+}
+/* Q5-1の解答はここまで */
+/* Q5-2の解答はここから */
+.flex-nowrap{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.flex-wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex-wrap-reverse{
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+/* Q5-２の解答はここまで */
+/* Q5-3の解答はここから */
+.flex-start{
+    display: flex;
+    justify-content: flex-start;
+}
+.flex-end{
+    display: flex;
+    justify-content: flex-end;
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+}
+.flex-space-between{
+    display: flex;
+    justify-content: space-between;
+}
+.flex-space-around{
+    display: flex;
+    justify-content: space-around;
+}
+/* Q5-3の解答はここまで */
+/* Q5-4の解答はここから */
+.grid-template-colums{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    gap: 10px;
+}
+.grid-template-colums-fr{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin: 20px 0px 0px 0px;
+}
+.grid-tamplate-rows{
+    display: grid;
+    margin: 20px 0px 0px 0px;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    grid-template-rows: 200px 200px;
+}
+.grid{
+    display: grid;
+    margin: 20px 0px 0px 0px;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    gap: 10px;
+
+}
+/* Q5-4の解答はここまで */
+.item{
+    width: 65px;
+    margin: 10px;
+    padding: 10px;
+    background: #00bbdd;
+    color: white;
+}
+.item-grid{
+    padding: 10px;
+    background: #00bbdd;
+    color: white;
+}
+.item-grid-red{
+    padding: 10px;
+    background: #dd0700;
+    color: white;
+    grid-column: 1/3;
+}
+.item-grid-green{
+    padding: 10px;
+    background: #0bdd00;
+    color: white;
+    grid-row: 2/4;
+}
+.item-grid-yellow{
+    padding: 10px;
+    background: #d9dd00;
+    color: white;
+    grid-column: 2/4;
+}
